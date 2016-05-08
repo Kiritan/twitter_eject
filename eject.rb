@@ -14,7 +14,7 @@ begin
     status_id = status.id
 
 
-      if contents =~ /^@kiritan_rb\s*/
+      if contents =~ /^@hoge\s*/
         if contents =~ /eject/
           system('eject')
           bot.fav(status_id:status_id)
